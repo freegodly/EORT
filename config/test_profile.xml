@@ -1,0 +1,92 @@
+<Profile>
+  <List Name = "profile_1" >
+      <Point Section="0"  Time="0'22"  Temperature="25"  	Humidity="50"  Shake="0"   Power="True"   Flow="True"  Description="Initiation Cycle (22mins@25C)"  />
+	  <Point Section="1"  Time="0'1"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"  Description="Pass % during rapid temp.ramp up"  />
+	  <Point Section="2"  Time="1'0"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"  Description="Hot Temperature 45℃" />
+	  <Point Section="3"  Time="0'1"  Temperature="65"  	Humidity="95"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="4"  Time="1'0"  Temperature="65"  	Humidity="95"  Shake="20"  Power="False"  Flow="False" Description="NA" />
+	  <Point Section="5"  Time="0'1"  Temperature="45"  	Humidity="95"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="6"  Time="0'5"  Temperature="45"  	Humidity="95"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="7"  Time="0'5"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True" Description="Hot Start @ 45C" />
+	  <Point Section="8"  Time="0'50" Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"  Description="Hot Temperature 45℃" />
+	  <Point Section="9"  Time="0'2"  Temperature="-5"  	Humidity="0"   Shake="0"   Power="True"   Flow="True"  Description="Pass % during rapid temp.ramp down to -5C" />
+	  <Point Section="10"  Time="1'0"  Temperature="-5"      Humidity="0"   Shake="0"   Power="True"   Flow="True"  Description="Cold Temperature -5℃" />
+	  <Point Section="11" Time="0'1"  Temperature="-25"     Humidity="0"   Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="12" Time="1'0"  Temperature="-25"  	Humidity="0"   Shake="25"  Power="False"  Flow="False" Description="NA" />
+	  <Point Section="13" Time="0'1"  Temperature="10"  	Humidity="50"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="14" Time="0'10" Temperature="10"  	Humidity="50"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="15" Time="0'5"  Temperature="10"  	Humidity="50"  Shake="0"   Power="True"   Flow="True" Description="Cold Start @ 10C" />
+	  <Point Section="16" Time="0'55" Temperature="10"  	Humidity="50"  Shake="0"   Power="True"   Flow="True"  Description="10℃ @ 55 mins at each cycle" />
+	  <Point Section="17" Time="0'1"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"  Description="Pass % during rapid temp.ramp up" />
+	  
+	  <Point Section="18"  Time="1'0"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"  Description="Hot Temperature 45℃" />
+	  <Point Section="19"  Time="0'1"  Temperature="65"  	Humidity="95"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="20"  Time="1'0"  Temperature="65"  	Humidity="95"  Shake="30"  Power="False"  Flow="False" Description="NA" />
+	  <Point Section="21"  Time="0'1"  Temperature="45"  	Humidity="95"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="22"  Time="0'5"  Temperature="45"  	Humidity="95"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="23"  Time="0'5"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True" Description="Hot Start @ 45C" />
+	  <Point Section="24"  Time="0'50" Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"  Description="Hot Temperature 45℃" />
+	  <Point Section="25"  Time="0'2"  Temperature="-5"  	Humidity="0"   Shake="0"   Power="True"   Flow="True"  Description="Pass % during rapid temp.ramp down to -5C" />
+	  <Point Section="26"  Time="1'0"  Temperature="-5"     Humidity="0"   Shake="0"   Power="True"  Flow="True"  Description="Cold Temperature -5℃" />
+	  <Point Section="27" Time="0'1"  Temperature="-25"     Humidity="0"   Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="28" Time="1'0"  Temperature="-25"  	Humidity="0"   Shake="35"  Power="False"  Flow="False" Description="NA" />
+	  <Point Section="29" Time="0'1"  Temperature="10"  	Humidity="50"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="30" Time="0'10" Temperature="10"  	Humidity="50"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="31" Time="0'5"  Temperature="10"  	Humidity="50"  Shake="0"   Power="True"   Flow="True" Description="Cold Start @ 10C" />
+	  <Point Section="32" Time="0'55" Temperature="10"  	Humidity="50"  Shake="0"   Power="True"   Flow="True"  Description="10℃ @ 55 mins at each cycle" />
+	  <Point Section="33" Time="0'1"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"  Description="Pass % during rapid temp.ramp up" />
+	  
+	  <Point Section="34"  Time="1'0"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"  Description="Hot Temperature 45℃" />
+	  <Point Section="35"  Time="0'1"  Temperature="65"  	Humidity="95"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="36"  Time="1'0"  Temperature="65"  	Humidity="95"  Shake="40"  Power="False"  Flow="False" Description="NA" />
+	  <Point Section="37"  Time="0'1"  Temperature="45"  	Humidity="95"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="38"  Time="0'5"  Temperature="45"  	Humidity="95"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="39"  Time="0'5"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True" Description="Hot Start @ 45C" />
+	  <Point Section="40"  Time="0'50" Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"  Description="Hot Temperature 45℃" />
+	  <Point Section="41"  Time="0'2"  Temperature="-5"  	Humidity="0"   Shake="0"   Power="True"   Flow="True"  Description="Pass % during rapid temp.ramp down to -5C" />
+	  <Point Section="42"  Time="1'0"  Temperature="-5"      Humidity="0"   Shake="0"   Power="True"  Flow="True"  Description="Cold Temperature -5℃" />
+	  <Point Section="43" Time="0'1"  Temperature="-25"     Humidity="0"   Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="44" Time="1'0"  Temperature="-25"  	Humidity="0"   Shake="45"  Power="False"  Flow="False" Description="NA" />
+	  <Point Section="45" Time="0'1"  Temperature="10"  	Humidity="50"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="46" Time="0'10" Temperature="10"  	Humidity="50"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="47" Time="0'5"  Temperature="10"  	Humidity="50"  Shake="0"   Power="True"   Flow="True" Description="Cold Start @ 10C" />
+	  <Point Section="48" Time="0'55" Temperature="10"  	Humidity="50"  Shake="0"   Power="True"   Flow="True"  Description="10℃ @ 55 mins at each cycle" />
+	  <Point Section="49" Time="0'1"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"  Description="Pass % during rapid temp.ramp up" />
+	  
+	  <Point Section="50"  Time="1'0"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"  Description="Hot Temperature 45℃" />
+	  <Point Section="51"  Time="0'1"  Temperature="65"  	Humidity="95"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="52"  Time="1'0"  Temperature="65"  	Humidity="95"  Shake="50"  Power="False"  Flow="False" Description="NA" />
+	  <Point Section="53"  Time="0'1"  Temperature="45"  	Humidity="95"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="54"  Time="0'5"  Temperature="45"  	Humidity="95"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="55"  Time="0'5"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True" Description="Hot Start @ 45C" />
+	  <Point Section="56"  Time="0'50" Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"  Description="Hot Temperature 45℃" />
+	  <Point Section="57"  Time="0'2"  Temperature="-5"  	Humidity="0"   Shake="0"   Power="True"   Flow="True"  Description="Pass % during rapid temp.ramp down to -5C" />
+	  <Point Section="58"  Time="1'0"  Temperature="-5"      Humidity="0"   Shake="0"   Power="True"  Flow="True"  Description="Cold Temperature -5℃" />
+	  <Point Section="59" Time="0'1"  Temperature="-25"     Humidity="0"   Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="60" Time="1'0"  Temperature="-25"  	Humidity="0"   Shake="55"  Power="False"  Flow="False" Description="NA" />
+	  <Point Section="61" Time="0'1"  Temperature="10"  	Humidity="50"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="62" Time="0'10" Temperature="10"  	Humidity="50"  Shake="0"   Power="False"  Flow="False" Description="NA" />
+	  <Point Section="63" Time="0'5"  Temperature="10"  	Humidity="50"  Shake="0"   Power="True"   Flow="True" Description="Cold Start @ 10C" />
+	  <Point Section="64" Time="0'55" Temperature="10"  	Humidity="50"  Shake="0"   Power="True"   Flow="True"  Description="10℃ @ 55 mins at each cycle" />
+	  <Point Section="65" Time="0'1"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"  Description="Pass % during rapid temp.ramp up" />
+	  
+	  <Point Section="66" Time="0'9"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"   Description="Performance of Power  Cycling" />
+	  <Point Section="67" Time="0'1"  Temperature="45"  	Humidity="95"  Shake="0"   Power="False"   Flow="False" Description="NA"  />
+	  
+	  <Point Section="68" Time="0'9"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"   Description="Performance of Power  Cycling" />
+	  <Point Section="69" Time="0'1"  Temperature="45"  	Humidity="95"  Shake="0"   Power="False"   Flow="False" Description="NA"  />
+	  
+	  <Point Section="70" Time="0'9"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"   Description="Performance of Power  Cycling" />
+	  <Point Section="71" Time="0'1"  Temperature="45"  	Humidity="95"  Shake="0"   Power="False"   Flow="False" Description="NA"  />
+	  
+	  <Point Section="72" Time="0'9"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"   Description="Performance of Power  Cycling" />
+	  <Point Section="73" Time="0'1"  Temperature="45"  	Humidity="95"  Shake="0"   Power="False"   Flow="False" Description="NA"  />
+	  
+	  <Point Section="74" Time="0'9"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"     Description="Performance of Power  Cycling" />
+	  <Point Section="75" Time="0'1"  Temperature="45"  	Humidity="95"  Shake="0"   Power="False"   Flow="False"  Description="NA" />
+	  
+	  <Point Section="76" Time="0'9"  Temperature="45"  	Humidity="95"  Shake="0"   Power="True"   Flow="True"     Description="Performance of Power  Cycling" />
+	  <Point Section="77" Time="0'1"  Temperature="45"  	Humidity="95"  Shake="0"   Power="False"   Flow="False"  Description="NA" />
+	  
+  </List>
+</Profile>

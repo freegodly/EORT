@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog_Setting</class>
+ <widget class="QDialog" name="Dialog_Setting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>设置</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>800</width>
+     <height>600</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>800</width>
+     <height>600</height>
+    </size>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>配置</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>411</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>流量测试程序</string>
+     </property>
+     <widget class="QWidget" name="layoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>381</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_12">
+         <property name="text">
+          <string>交互文件</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="Flow_File"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_SelectFile_File">
+         <property name="text">
+          <string>...</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>381</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>PATH</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="Flow_Path"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_SelectFile">
+         <property name="text">
+          <string>...</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>20</y>
+       <width>171</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>仪器设置</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="layoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>131</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>震动仪串口</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="Instrument_Shark_Com">
+         <item>
+          <property name="text">
+           <string>Com1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com3</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com4</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com5</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com6</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com7</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com8</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com9</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>131</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>温箱仪串口</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="Instrument_Com">
+         <item>
+          <property name="text">
+           <string>Com1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com3</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com4</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com5</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com6</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com7</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com8</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Com9</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QCheckBox" name="Instrument_Enable">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>111</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>是否启用</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>140</y>
+       <width>195</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_14">
+        <property name="text">
+         <string>Model Name</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="Model_Name">
+        <property name="text">
+         <string>D6200</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <action name="Insert_Row">
+   <property name="text">
+    <string>Insert New</string>
+   </property>
+  </action>
+  <action name="Delete_Row">
+   <property name="text">
+    <string>Delete One</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

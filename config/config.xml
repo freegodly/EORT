@@ -1,0 +1,20 @@
+<Config>
+  <MODULE_Name Type="QLineEdit" Value="FS305"/>
+  <MODULE_DUTCount Type="QLineEdit" Value="2"/>
+  <MODULE_Type Type="QComboBox" Value="1"/>
+  <SWITCH_Port Type="QLineEdit" Value="4"/>
+  <SWITCH_Speed Type="QComboBox" Value="1"/>
+  <SWITCH_DATA Type="QComboBox" Value="1"/>
+  <SWITCH_PacketLen Type="QComboBox" Value="1"/>
+  <SWITCH_BurstCount Type="QLineEdit" Value="200000"/>
+  <SWITCH_LossType Type="QComboBox" Value="1"/>
+  <SWITCH_LossCount Type="QLineEdit" Value="0"/>
+  <SWITCH_LossPercent Type="QLineEdit" Value="0"/>
+  <SWITCH_CRCType Type="QComboBox" Value="1"/>
+  <SWITCH_CRCCount Type="QLineEdit" Value="0"/>
+  <SWITCH_CRCPercent Type="QLineEdit" Value="0"/>
+  <ROUTER_RxRate Type="QLineEdit" Value="0"/>
+  <Flow_File Type="QLineEdit" Value="F:/Code/Qt/build-Eort-unknown-Debug/debug/config/result.txt"/>
+  <Flow_Path Type="QLineEdit" Value="cmd.exe"/>
+  <Instrument_Com Type="QComboBox" Value="0"/>
+</Config>

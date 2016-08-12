@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>mask.png</file>
+        <file>background.jpg</file>
+        <file>degree_meter.png</file>
+        <file>humidity.png</file>
+        <file>needle.png</file>
+        <file>overlay.png</file>
+        <file>b_exit.png</file>
+        <file>b_mask.png</file>
+        <file>b_start.png</file>
+        <file>b_stop.png</file>
+        <file>p_report.png</file>
+        <file>b_setting.png</file>
+        <file>b_pause.png</file>
+        <file>eort.ico</file>
+        <file>mask1.png</file>
+        <file>logo.jpg</file>
+        <file>zbanner1.jpg</file>
+        <file>bk.jpg</file>
+        <file>netgear.png</file>
+        <file>exit.png</file>
+    </qresource>
+    <qresource prefix="/files">
+        <file>add.png</file>
+        <file>application.qss</file>
+        <file>blue.qss</file>
+        <file>khaki.qss</file>
+        <file>nature_1.jpg</file>
+        <file>nostyle.qss</file>
+        <file>remove.png</file>
+        <file>transparent.qss</file>
+    </qresource>
+</RCC>
